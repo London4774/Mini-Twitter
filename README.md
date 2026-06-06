@@ -8,11 +8,17 @@
 - React
 - TailwindCSS
 - Zustand
+- React Router
+- Axios
 
 **Backend**
 - Node.js
 - Express
-- PostgreSQL
+- PostgreSQL (pg)
+- bcrypt
+- jsonwebtoken
+- dotenv
+- cors
 
 **Infrastructure**
 - Docker
@@ -23,7 +29,19 @@
 
 ## Запуск
 
-coming soon...
+**Frontend**
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+**Backend**
+```bash
+cd backend
+npm install
+npm run dev
+```
 
 ## Авторы
 
