@@ -1,9 +1,17 @@
+import { TopBar } from "./components/TopBar"
+import { TweetComposer } from "./components/TweetComposer"
+import { TweetFeed } from "./components/TweetFeed"
+import { BottomNavBar } from "./components/BottomNavBar"
+
 
 function App() {
 
   return (
     <>
-      <p className="text-pink-500">Here we go starting!</p>
+      <TopBar />
+      <TweetComposer />
+      <TweetFeed />
+      <BottomNavBar />
     </>
   )
 }
